@@ -1,0 +1,17 @@
+App:
+  Env: local
+  Key: ""
+  Debug: true
+  ServerAddr: 0.0.0.0:8080
+  
+DB:
+  Host: 127.0.0.1
+  Port: 3306
+  Database: example
+  User: root
+  Password: secret
+
+Redis:
+  Host: 127.0.0.1
+  Port: 6379
+  Password: ""

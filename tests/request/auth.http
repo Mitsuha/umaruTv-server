@@ -1,0 +1,29 @@
+### Register
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "ricardo",
+  "email": "misakas@163.com",
+  "password": "secret"
+}
+
+
+
+### Login
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+"username": "ricardo",
+"password": "secret"
+}
+
+### middlewate
+
+POST http://localhost:8080/backstage/needLogin
+Content-Type: application/json
+Authorization: ricardo
+
+
+###

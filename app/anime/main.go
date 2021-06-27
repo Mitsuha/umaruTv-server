@@ -1,0 +1,5 @@
+package anime
+
+func List() {
+
+}
